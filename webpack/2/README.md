@@ -2,23 +2,6 @@
 
 根目录下创建`webpack.confing.js`
 
-案例：
-
-1. 单入口
-2. 多入口
-3. css
-4. less
-5. image
-6. js压缩
-7. html
-8. jquery
-9. extract
-10. es6
-11. gulp-webpack
-12. 热更新
-13. vue
-14. 单页应用
-
 # 1单入口 {#1单入口}
 
 创建文件夹`1-单入口`    作为第一个案例的存储位置
