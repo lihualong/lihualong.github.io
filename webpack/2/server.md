@@ -55,7 +55,7 @@ module.exports = {
   <title>Document</title>
 </head>
 <body>
-  <script src="assets/bundle.js"></script>
+  <script src="assets/dist.js"></script>
 </body>
 </html>
 ```
