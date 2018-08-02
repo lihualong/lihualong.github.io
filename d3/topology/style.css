@@ -1,0 +1,66 @@
+.topology {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.topology text {
+  font-size: 10px;
+  /*和js里保持一致*/
+  fill: #1A2C3F;
+  text-anchor: middle;
+}
+
+.topology .node-other {
+  text-anchor: start;
+}
+
+.topology .normal {
+  stroke: #92E1A2;
+}
+
+.topology .slow {
+  stroke: orange;
+}
+
+.topology .slowest {
+  stroke: red;
+}
+
+.topology #cloud,
+.topology #database {
+  fill: #ccc;
+}
+
+.topology .link {
+  stroke: #E4E8ED;
+}
+
+.topology .node-title {
+  font-size: 14px;
+}
+
+.topology .node-code circle {
+  fill: #3F86F5;
+}
+
+.topology .node-code text {
+  fill: #fff;
+}
+
+.topology .node-bg {
+  fill: #fff;
+}
+
+.topology .arrow {
+  fill: #E4E8ED;
+}
+
+.topology .drilldown rect {
+  fill: #1A2C3F;
+}
+
+.topology .drilldown text {
+  fill: #fff;
+  text-anchor: start;
+}

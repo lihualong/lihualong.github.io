@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #topochart {
+      width: 600px;
+      height: 600px;
+    }
+  </style>
+</head>
+
+<body>
+  <svg id="topochart" class="topology">
+
+  </svg>
+  <script src="../d3.v5.min.js"></script>
+  <script src="testdata.js"></script>
+  <script src="topo.js"></script>
+  <script>
+    let svg = document.getElementById('topochart');
+    let option = {
+      data: testdata,
+      onNodeClick: () => {
+        alert()
+      },
+      onLinkClick: () => {
+        alert()
+      },
+    }
+
+    let chart = new TopoChart('#topochart');
+    chart.render(option);
+  </script>
+</body>
+
+</html>
